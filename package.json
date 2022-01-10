@@ -1,0 +1,13 @@
+{
+  "name": "github-action-yarn-forbid-portals",
+  "version": "1.0.0",
+  "description": "A GitHub action to stop the workflow if portals are detected",
+  "main": "index.js",
+  "repository": "git@github.com:snk7891/github-action-yarn-forbid-portals.git",
+  "author": "Roberto Baldin <robertobaldin@gmail.com>",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.6.0"
+  }
+}

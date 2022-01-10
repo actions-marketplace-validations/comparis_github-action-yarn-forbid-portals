@@ -1,0 +1,12 @@
+name: "Check for portals"
+description: "It stops the workflow if it encounters portals in the package.json"
+inputs:
+  files:
+    description: "List of package.json files to check."
+    required: false
+    default: |
+      package.json
+
+runs:
+  using: "node16"
+  main: "index.js"
