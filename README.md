@@ -19,7 +19,7 @@ If needed, I might extend the functionality to automatically remove the portals 
 steps:
   ...
   - name: Forbid portals
-    uses: snk7891/github-action-yarn-forbid-portals@v0.1
+    uses: snk7891/github-action-yarn-forbid-portals@v0.2
     with:
       # Optional file list
       # Defaults to "./package.json"
