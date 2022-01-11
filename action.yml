@@ -8,5 +8,9 @@ inputs:
       package.json
 
 runs:
-  using: "node16"
-  main: "index.js"
+  using: node16
+  main: index.js
+
+branding:
+  icon: file-text
+  color: blue
