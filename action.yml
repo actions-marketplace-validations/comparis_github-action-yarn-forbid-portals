@@ -1,4 +1,4 @@
-name: "Check for portals"
+name: "Check for yarn portals"
 description: "It stops the workflow if it encounters portals in the package.json"
 inputs:
   files:
