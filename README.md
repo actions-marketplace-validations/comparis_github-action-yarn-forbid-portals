@@ -13,13 +13,15 @@ This GitHub Action will check if the `portal:` keyword is used in the package.js
 
 If needed, I might extend the functionality to automatically remove the portals and commit the changed files.
 
+**Please note** that this action doesn't check the yarn.lock file at the moment, which can still contain the wrong references.
+
 ## Usage
 
 ```yaml
 steps:
   ...
   - name: Forbid portals
-    uses: snk7891/github-action-yarn-forbid-portals@v0.2
+    uses: comparis/github-action-yarn-forbid-portals@v0.2
     with:
       # Optional file list
       # Defaults to "./package.json"
